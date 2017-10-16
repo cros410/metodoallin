@@ -1,71 +1,113 @@
+@media only screen and (min-width: 1201px){
+    .tamano{
+        font-size: 25px !important;
+    }
+    .tamano2{
+        font-size: 33px !important;
+    }
+    .tamano3{
+        font-size: 40px !important;
+    }
+    .tamano4{
+        font-size: 20px !important;
+    }
+    .tamano5{
+        font-size: 53px !important;
+    }
+    .tamano6{
+        font-size: 22px !important;
+    }
+    .tamano7{
+        font-size: 33px !important;
+    }
+    .tamano8{
+        font-size: 20px !important;
+    }
+    .tamano9{
+        font-size: 23px !important;
+    }
+    
+    .masthead-nav > li + li {
+        margin-left: 100px;
+    }
+    .masthead-nav2 > li + li {
+        margin-left: 100px;
+    }
+}
 
 /* Large Devices, Wide Screens */
 @media only screen and (max-width : 1200px) {
     .tamano{
         font-size: 20px !important;
     }
-    .masthead-nav > li + li {
-        margin-left: 50px;
-    }
-    .masthead-nav2 > li + li {
-        margin-left: 50px;
-    }
-
     .tamano2{
         font-size: 28px !important;
     }
     .tamano3{
         font-size: 35px !important;
     }
-    .tamano5{
-        font-size: 48px !important;
-    }
-    .tamano7{
-        font-size: 28px !important;
-    }
     .tamano4{
         font-size: 15px !important;
     }
+    .tamano5{
+        font-size: 48px !important;
+    }
     .tamano6{
         font-size: 17px !important;
+    }
+    .tamano7{
+        font-size: 28px !important;
     }
     .tamano8{
         font-size: 15px !important;
     }
     .tamano9{
-        font-size: 19px !important;
+        font-size: 18px !important;
     }
-}
 
-/* Medium Devices, Desktops */
-@media only screen and (max-width : 992px) {
-    .tamano{
-        font-size: 14px !important;
-    }
     .masthead-nav > li + li {
         margin-left: 50px;
     }
     .masthead-nav2 > li + li {
         margin-left: 50px;
     }
+}
 
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .tamano{
+        font-size: 15px !important;
+    }
     .tamano2{
         font-size: 23px !important;
     }
     .tamano3{
         font-size: 30px !important;
     }
+    .tamano4{
+        font-size: 10px !important;
+    }
     .tamano5{
-        font-size: 33px !important;
-    }
-    .tamano7{
-        font-size: 13px !important;
-    }
-    .tamano8{
-        font-size: 13px !important;
+        font-size: 43px !important;
     }
     .tamano6{
-        font-size: 14px !important;
+        font-size: 12px !important;
+    }
+    .tamano7{
+        font-size: 25px !important;
+    }
+    .tamano8{
+        font-size: 10px !important;
+    }
+    .tamano9{
+        font-size: 13px !important;
+    }
+
+    .masthead-nav > li + li {
+        margin-left: 50px;
+    }
+    .masthead-nav2 > li + li {
+        margin-left: 50px;
     }
 }
 
@@ -80,7 +122,6 @@
         left: -35%;
         right: 0;
     }
-
     .fc{
         display: none;
     }
