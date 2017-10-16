@@ -32,6 +32,9 @@
     .tamano8{
         font-size: 15px !important;
     }
+    .tamano9{
+        font-size: 19px !important;
+    }
 }
 
 /* Medium Devices, Desktops */
@@ -60,6 +63,9 @@
     }
     .tamano8{
         font-size: 13px !important;
+    }
+    .tamano6{
+        font-size: 14px !important;
     }
 }
 

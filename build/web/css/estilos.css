@@ -30,7 +30,7 @@ html, body {
     height: 100%;
     overflow: hidden;
     line-height: 1;
- 
+
 }
 .foco{
     height: 150%;
@@ -43,6 +43,9 @@ html, body {
 }
 .somos{
     margin-bottom: 5px;
+}
+.noBlack{
+    text-shadow: 0 0px 0px rgba(0,0,0,.5) !important;
 }
 
 
@@ -138,4 +141,7 @@ html, body {
 }
 .tamano6{
     font-size: 22px !important;
+}
+.tamano9{
+    font-size: 24px !important;
 }
