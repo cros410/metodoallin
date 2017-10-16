@@ -1,0 +1,113 @@
+
+/* Large Devices, Wide Screens */
+@media only screen and (max-width : 1200px) {
+    .tamano{
+        font-size: 20px !important;
+    }
+    .masthead-nav > li + li {
+        margin-left: 50px;
+    }
+    .masthead-nav2 > li + li {
+        margin-left: 50px;
+    }
+
+    .tamano2{
+        font-size: 28px !important;
+    }
+    .tamano3{
+        font-size: 35px !important;
+    }
+    .tamano5{
+        font-size: 48px !important;
+    }
+    .tamano7{
+        font-size: 28px !important;
+    }
+    .tamano4{
+        font-size: 15px !important;
+    }
+    .tamano6{
+        font-size: 17px !important;
+    }
+    .tamano8{
+        font-size: 15px !important;
+    }
+}
+
+/* Medium Devices, Desktops */
+@media only screen and (max-width : 992px) {
+    .tamano{
+        font-size: 14px !important;
+    }
+    .masthead-nav > li + li {
+        margin-left: 50px;
+    }
+    .masthead-nav2 > li + li {
+        margin-left: 50px;
+    }
+
+    .tamano2{
+        font-size: 23px !important;
+    }
+    .tamano3{
+        font-size: 30px !important;
+    }
+    .tamano5{
+        font-size: 33px !important;
+    }
+    .tamano7{
+        font-size: 13px !important;
+    }
+    .tamano8{
+        font-size: 13px !important;
+    }
+}
+
+/* Small Devices, Tablets */
+@media only screen and (max-width : 768px) {
+    .foco{
+        height: 150%;
+        max-width: 200%;
+        position: absolute;
+        top: -10%;
+        bottom: 0;
+        left: -35%;
+        right: 0;
+    }
+
+    .fc{
+        display: none;
+    }
+}
+
+/* Extra Small Devices, Phones */ 
+@media only screen and (max-width : 480px) {
+    .foco{
+        height: 0;
+        max-width: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .fc{
+        display: none;
+    }
+}
+
+/* Custom, iPhone Retina */ 
+@media only screen and (max-width : 320px) {
+    .foco{
+        height: 0;
+        max-width: 0;
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        left: 0;
+        right: 0;
+    }
+    .fc{
+        display: none;
+    }
+}
