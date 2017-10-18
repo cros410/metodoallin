@@ -1,0 +1,52 @@
+@media only screen and (min-width: 1201px){
+    
+    .masthead-nav > li + li {
+        margin-left: 100px;
+    }
+    .masthead-nav2 > li + li {
+        margin-left: 100px;
+    }
+}
+
+/* Wide Screens menor md*/
+@media only screen and (max-width : 1200px) {
+    
+    .masthead-nav > li + li {
+        margin-left: 50px;
+    }
+    .masthead-nav2 > li + li {
+        margin-left: 50px;
+    }
+}
+
+/*Desktops menor sm*/
+@media only screen and (max-width : 992px) {
+   
+    .masthead-nav > li + li {
+        margin-left: 50px;
+    }
+    .masthead-nav2 > li + li {
+        margin-left: 50px;
+    }
+}
+
+/*Tablets menor xs */
+@media only screen and (max-width : 768px) {
+    .fc{
+        display: none;
+    }
+} 
+
+/* Tablets menor xs */ 
+@media only screen and (max-width : 480px) {
+    .fc{
+        display: none;
+    }
+}
+
+/* Tablets menor xs */ 
+@media only screen and (max-width : 320px) {
+    .fc{
+        display: none;
+    }
+}

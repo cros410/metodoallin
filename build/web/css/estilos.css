@@ -1,13 +1,3 @@
-/*
-To change this license header, choose License Headers in Project Properties.
-To change this template file, choose Tools | Templates
-and open the template in the editor.
-*/
-/* 
-    Created on : 14/10/2017, 03:45:34 PM
-    Author     : Miguel
-*/
-
 #welcome{
     background-image: url("../imagenes/Fondo1.png");
     background-color: #cccccc;
@@ -20,19 +10,17 @@ and open the template in the editor.
     background-image: url("../imagenes/Fondo3.png");
     background-color: #cccccc;
 }
-
-section{
-    width: 100%;
-    height: 100%;
-}
 html, body {
     margin: 0;
     height: 100%;
     overflow: hidden;
     line-height: 1;
-
 }
 .foco{
+    height: 100%;
+    width: 100%;
+    position: relative;
+    /*
     height: 150%;
     max-width: 200%;
     position: absolute;
@@ -40,15 +28,102 @@ html, body {
     bottom: 0;
     left: -65%;
     right: 0;
+    */
 }
-.somos{
-    margin-bottom: 5px;
+.padding_menu{
+    padding-right: 10%;
 }
+
 .noBlack{
     text-shadow: 0 0px 0px rgba(0,0,0,.5) !important;
 }
+.align_derecha{
+    text-align: right;
+}
+
+.size_menu{
+    font-size: 1.5vw !important;
+}
+.size_metodo{
+    font-size: 2vw!important;
+}
+.size_consolidamos{
+    font-size: 1.5vw!important;
+}
 
 
+.active_font{
+    font-family: extraBoldItalic;
+}
+.desac_font{
+    font-family: boldItalic;
+}
+.metodo_font{
+    font-family: regular;
+}
+.allin_font{
+    font-family: black;
+}
+.consolidado_font{
+    font-family: thin;
+}
+.somos_font{
+    font-family: light;
+}
+.acciones_font{
+    font-family: lightItalic;
+}
+.semi_font{
+    font-family: semiBoldItalic;
+}
+.medium_font{
+    font-family: mediumItalic;
+}
+
+.color_plomo{
+    color: rgb(40,56,90)!important;
+}
+.color_blanco{
+    color: rgb(255,255,255)!important;
+}
+.color_amarillo{
+    color: rgb(255,205,0)!important;
+}
+.color_rojo{
+    color: rgb(129,37,41)!important;
+}
+
+/*cabecera*/
+.tamano{
+    font-size: 25px !important;
+}
+.tamano2{
+    font-size: 33px !important;
+}
+.tamano3{
+    font-size: 40px !important;
+}
+/*primer section*/
+.tamano4{
+    font-size: 20px !important;
+}
+.tamano8{
+    font-size: 20px !important;
+}
+
+/*tercer section*/
+.tamano5{
+    font-size: 53px !important;
+}
+.tamano7{
+    font-size: 33px !important;
+}
+.tamano6{
+    font-size: 22px !important;
+}
+.tamano9{
+    font-size: 23px !important;
+}
 @font-face {
     font-family: extraBoldItalic;
     src: url(../fonts/Exo2-ExtraBoldItalic.ttf);
@@ -86,62 +161,3 @@ html, body {
     src: url("../fonts/Exo2-LightItalic.ttf");
 }
 
-.active{
-    font-family: extraBoldItalic;
-}
-.desac{
-    font-family: boldItalic;
-}
-.metodo{
-    font-family: regular;
-}
-.allin{
-    font-family: black;
-}
-.consolidado{
-    font-family: thin;
-}
-.somos{
-    font-family: light;
-}
-.acciones{
-    font-family: lightItalic;
-}
-.semi{
-    font-family: semiBoldItalic;
-}
-.medium{
-    font-family: mediumItalic;
-}
-
-/*cabecera*/
-.tamano{
-    font-size: 25px !important;
-}
-.tamano2{
-    font-size: 33px !important;
-}
-.tamano3{
-    font-size: 40px !important;
-}
-/*primer section*/
-.tamano4{
-    font-size: 20px !important;
-}
-.tamano8{
-    font-size: 20px !important;
-}
-
-/*tercer section*/
-.tamano5{
-    font-size: 53px !important;
-}
-.tamano7{
-    font-size: 33px !important;
-}
-.tamano6{
-    font-size: 22px !important;
-}
-.tamano9{
-    font-size: 23px !important;
-}

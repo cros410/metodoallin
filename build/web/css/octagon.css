@@ -103,6 +103,11 @@
 .no_padding{
     padding: 0px !important;
 }
+
+.no_margin{
+    margin: 0px !important;
+}
+
 .square {
     margin: auto;
     width: 50%;
